@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 13;
+    }
+    header{
+        background-color: rgb(99, 99, 201);
+        width: 100%;
+        grid-column:1/13
+    }
+    footer{
+        background-color: rgb(99, 99, 201);
+        width: 100%;
+        grid-column: 1/13;
+    }
+    #menu{
+        grid-row: 2;
+        grid-column: 1/4;
+    }
+    li{
+        background-color: aqua;
+        margin: 1rem;
+        font-size: 30px;
+        height: 30px;
+        width: 300px;
+        
+    }
+    article{
+        grid-column: 4/13;
+        grid-row: 2;
+    }
+</style>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kanini</h1>
+        </header>
+        <div id="menu">
+            <ul style="list-style: none;">
+                <li>About</li>
+                <li>Services</li>
+                <li>Careers</li>
+                <li>Contact</li>
+            </ul>          
+        </div>
+        <article>
+            <h1>About</h1>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis temporibus enim sunt perferendis dolore quidem, iste recusandae! Dolorem qui eos nisi voluptas voluptatem, consectetur cumque aut quis nam ex itaque?</p>
+        </article>
+        <footer>
+            <p>Copyrights Reserved</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+</html>
